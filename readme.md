@@ -71,7 +71,7 @@ The script will create three log files:
 
 To stop the keylogger, use `Ctrl+C`.
 
-### Monitor Log File Remotely via SSH
+##  Monitor Log File Remotely via SSH
 
 To continuously monitor the keylogger output file remotely over SSH, use the following command:
 
@@ -79,7 +79,7 @@ To continuously monitor the keylogger output file remotely over SSH, use the fol
 ssh user@remote_host "tail -f /path/to/log_file.txt"
 ```
 
-### Example Output
+## Example Output
 
 ![Example Output file [formatted]](https://github.com/YanivHaliwa/keylogger_reader/blob/master/example_output.png)
  
