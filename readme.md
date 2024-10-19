@@ -73,16 +73,7 @@ To stop the keylogger, use `Ctrl+C`.
 
 ### Example Output
 
-
-```ansi
-\033[1;32mstart logging at 2024-10-19 15:17:09\033[0m
-
-\033[1;34m[Mozilla Firefox]\033[0m - python\033[1;31m [ENTER] \033[0m
-
-\033[1;34m[Sublime Text]\033[0m - well done\033[1;31m [ENTER] \033[0m
-
-\033[1;32mstop logging at 2024-10-19 15:17:09\033[0m
-```
+![Example Output file [formatted]](https://github.com/YanivHaliwa/keylogger_reader/blob/master/example_output.png)
  
 - Window changes are logged as `[Window Title] - ` the first time you switch to a new window.
 - Special keys are logged in square brackets, e.g., `[ENTER]`, `[ESC]`.
