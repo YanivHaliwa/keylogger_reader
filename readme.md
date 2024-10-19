@@ -73,16 +73,15 @@ To stop the keylogger, use `Ctrl+C`.
 
 ### Example Output
 
-```plaintext
 
-start logging at 2024-10-19 15:08:16
+```ansi
+\033[1;32mstart logging at 2024-10-19 15:17:09\033[0m
 
-[Mozilla Firefox] - python [ENTER] 
-[Sublime Text] - well done
-[CTRL+C]
+\033[1;34m[Mozilla Firefox]\033[0m - python\033[1;31m [ENTER] \033[0m
 
-stop logging at 2024-10-19 15:08:16
+\033[1;34m[Sublime Text]\033[0m - well done\033[1;31m [ENTER] \033[0m
 
+\033[1;32mstop logging at 2024-10-19 15:17:09\033[0m
 ```
  
 - Window changes are logged as `[Window Title] - ` the first time you switch to a new window.
