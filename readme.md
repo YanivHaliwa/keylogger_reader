@@ -104,13 +104,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 **Summary of the MIT License**: You are free to use, modify, and distribute this software as long as you include the original license. This software comes with no warranty.
-
-## Tags
-
-- `#keylogger`
-- `#Python`
-- `#Linux`
-- `#pynput`
-- `#xdotool`
-- `#monitoring`
-            
